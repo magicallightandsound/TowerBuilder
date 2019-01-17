@@ -1,0 +1,12 @@
+{
+    "name": "PlayTests",
+    "references": [
+        "Prestige"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
