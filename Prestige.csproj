@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActsAsBlockStack.cs" />
+    <Compile Include="Assets\Scripts\ActsAsPlatform.cs" />
     <Compile Include="Assets\Scripts\Prestige.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.1.9f2-MLTP10/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
