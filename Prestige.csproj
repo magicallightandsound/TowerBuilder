@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\ActsAsBlockStack.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlaneExtractor.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlatform.cs" />
+    <Compile Include="Assets\Scripts\ActsAsRotatingMarker.cs" />
     <Compile Include="Assets\Scripts\Prestige.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.1.9f2-MLTP10/Editor/Data/PlaybackEngines/lumin/Tools/UnityEngine.AIModule.dll</HintPath>

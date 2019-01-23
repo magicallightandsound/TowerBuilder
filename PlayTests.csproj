@@ -64,6 +64,7 @@
     <Compile Include="Assets\PlayTests\ActsAsBlockStackPlayTestScript.cs" />
     <Compile Include="Assets\PlayTests\ActsAsPlaneExtractorPlayTestScript.cs" />
     <Compile Include="Assets\PlayTests\ActsAsPlatformPlayTestScript.cs" />
+    <Compile Include="Assets\PlayTests\ActsAsRotatingMarkerPlayTestScript.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.1.9f2-MLTP10/Editor/Data/PlaybackEngines/lumin/Tools/UnityEngine.AIModule.dll</HintPath>
     </Reference>
