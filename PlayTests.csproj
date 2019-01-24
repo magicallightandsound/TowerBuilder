@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PlayTests\ActsAsBlockStackPlayTestScript.cs" />
+    <Compile Include="Assets\PlayTests\ActsAsEyeTargetPlayTestScript.cs" />
     <Compile Include="Assets\PlayTests\ActsAsPlaneExtractorPlayTestScript.cs" />
     <Compile Include="Assets\PlayTests\ActsAsPlatformPlayTestScript.cs" />
     <Compile Include="Assets\PlayTests\ActsAsRotatingMarkerPlayTestScript.cs" />

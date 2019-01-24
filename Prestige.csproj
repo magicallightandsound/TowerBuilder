@@ -62,6 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActsAsBlockStack.cs" />
+    <Compile Include="Assets\Scripts\ActsAsEyeTarget.cs" />
+    <Compile Include="Assets\Scripts\ActsAsEyeTracker.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlaneExtractor.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlatform.cs" />
     <Compile Include="Assets\Scripts\ActsAsRotatingMarker.cs" />
