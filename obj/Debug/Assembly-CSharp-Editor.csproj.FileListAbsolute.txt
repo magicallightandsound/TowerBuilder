@@ -1,3 +1,5 @@
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Boo.Lang.dll
@@ -150,8 +152,6 @@ C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\LuminUnityEdito
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp-Editor.pdb

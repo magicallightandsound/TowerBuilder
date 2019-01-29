@@ -1,3 +1,5 @@
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Boo.Lang.dll
@@ -112,8 +114,6 @@ C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.Spa
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\LuminUnity.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Assembly-CSharp.pdb

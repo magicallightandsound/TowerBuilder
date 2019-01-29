@@ -1,3 +1,5 @@
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\PlayTests.csprojAssemblyReference.cache
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\PlayTests.csproj.CoreCompileInputs.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\PlayTests.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\PlayTests.pdb
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Boo.Lang.dll
@@ -145,8 +147,6 @@ C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\LuminUnityEdito
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\PlayTests.csprojAssemblyReference.cache
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\PlayTests.csproj.CoreCompileInputs.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\PlayTests.csproj.CopyComplete
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\PlayTests.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\PlayTests.pdb

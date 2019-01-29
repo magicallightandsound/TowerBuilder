@@ -62,8 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActsAsBlockStack.cs" />
+    <Compile Include="Assets\Scripts\ActsAsCursor.cs" />
     <Compile Include="Assets\Scripts\ActsAsEyeTarget.cs" />
     <Compile Include="Assets\Scripts\ActsAsEyeTracker.cs" />
+    <Compile Include="Assets\Scripts\ActsAsInputController.cs" />
+    <Compile Include="Assets\Scripts\ActsAsPlaceable.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlaneExtractor.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlatform.cs" />
     <Compile Include="Assets\Scripts\ActsAsReferee.cs" />
