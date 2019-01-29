@@ -66,9 +66,9 @@ public class ActsAsInputController : MonoBehaviour
     public static event TouchpadGestureEnd OnTouchpadGestureEnd;
     public static event TouchpadGestureStart OnTouchpadGestureStart;
 
-    private Prestige.ActsAsInputController inputController;
+    private Prestige.InputController inputController;
 
-    protected Prestige.ActsAsInputController GetInputController()
+    protected Prestige.InputController GetInputController()
     {
         return inputController;
     }
@@ -78,7 +78,7 @@ public class ActsAsInputController : MonoBehaviour
     virtual public void Awake()
     {
         Assert.raiseExceptions = true;  // Debugging
-        inputController = new Prestige.ActsAsInputController(Prestige.DeviceType.ControllerFirst);
+        inputController = new Prestige.InputController(Prestige.DeviceType.ControllerFirst);
         inputController.Start();
 
 
@@ -105,7 +105,7 @@ public class ActsAsInputController : MonoBehaviour
     {
         if (inputController == null)
         {
-            inputController = new Prestige.ActsAsInputController(Prestige.DeviceType.ControllerFirst);
+            inputController = new Prestige.InputController(Prestige.DeviceType.ControllerFirst);
             inputController.Start();
         }
 
