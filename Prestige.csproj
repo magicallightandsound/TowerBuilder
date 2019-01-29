@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\ActsAsEyeTracker.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlaneExtractor.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlatform.cs" />
+    <Compile Include="Assets\Scripts\ActsAsReferee.cs" />
     <Compile Include="Assets\Scripts\ActsAsRotatingMarker.cs" />
     <Compile Include="Assets\Scripts\Prestige.cs" />
     <Reference Include="UnityEngine.AIModule">

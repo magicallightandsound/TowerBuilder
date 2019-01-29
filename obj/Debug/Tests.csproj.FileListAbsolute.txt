@@ -1,5 +1,3 @@
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Tests.csprojAssemblyReference.cache
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Tests.csproj.CoreCompileInputs.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Tests.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Tests.pdb
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Boo.Lang.dll
@@ -43,8 +41,6 @@ C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.Aud
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.BaselibModule.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClothModule.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.dll
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.CoreModule.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.DirectorModule.dll
@@ -104,6 +100,8 @@ C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.Win
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.XRModule.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityScript.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityScript.Lang.dll
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Unity.Cecil.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Unity.SerializationLogic.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Unity.DataContract.dll
@@ -123,8 +121,6 @@ C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Unity.Cecil.Pdb
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\Prestige.pdb
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEditor.xml
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEditor.UI.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.Networking.xml
@@ -144,9 +140,13 @@ C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.Hol
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEditor.SpatialTracking.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEditor.VR.xml
-C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\LuminUnityEditor.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\LuminUnity.xml
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\LuminUnityEditor.xml
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Tests.csprojAssemblyReference.cache
+C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Tests.csproj.CoreCompileInputs.cache
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Tests.csproj.CopyComplete
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Tests.dll
 C:\Users\Rodney\Documents\MLProjects\TowerBuilder\obj\Debug\Tests.pdb
