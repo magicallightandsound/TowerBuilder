@@ -44,7 +44,6 @@ using Prestige;
  * attached to the GameObject that represents the Magic Leap controller
  * 
  * */
-[RequireComponent(typeof(ActsAsInputController))]
 public class ActsAsCursor : MonoBehaviour
 {
     [SerializeField]
@@ -109,7 +108,8 @@ public class ActsAsCursor : MonoBehaviour
 
         _renderer = GetComponent<Renderer>();
 
-        lineRenderer = GetComponent<LineRenderer>();
+        gameObject.AddComponent<LineRenderer>();
+        lineRenderer = gameObject.GetComponent<LineRenderer>();
         lineRenderer.startWidth = 0.01f;
         lineRenderer.endWidth = 0.01f;
     }
@@ -123,6 +123,7 @@ public class ActsAsCursor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Assert(inputController != null, "inputControllerBehavior should be configured in the Inspector");
         worldRaysManager.Update(inputController.transform.position, inputController.transform.forward, inputController.transform.up);
     }
 

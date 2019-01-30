@@ -9,12 +9,22 @@ public class ActsAsEyeTracker : MonoBehaviour {
     [SerializeField]
     public int hitLayer;
 
+    [SerializeField]
+    public float dampenTimeout = 0.33F;  //Slow down the updates, so the game object does not jiggle
+
     private ActsAsEyeTarget currentActsAsEyeTarget = null;
+    private LineRenderer lineRenderer = null;
+    
+    private float initialTime = 0;
 
     // Use this for initialization
     void Start () {
-		
-	}
+
+        gameObject.AddComponent<LineRenderer>();
+        lineRenderer = gameObject.GetComponent<LineRenderer>();
+        lineRenderer.startWidth = 0.01f;
+        lineRenderer.endWidth = 0.01f;
+    }
 
     private void OnEnable()
     {
@@ -40,8 +50,20 @@ public class ActsAsEyeTracker : MonoBehaviour {
             return;
         }
 
+        // Dampen the placement of the game object
+        initialTime += Time.deltaTime;
+        if (initialTime < dampenTimeout )
+        {
+            return;
+        }
+        initialTime = 0;
+
+        gameObject.transform.position = MLEyes.FixationPoint;
+        gameObject.transform.LookAt(Camera.main.transform);
+
         Vector3 eyetrackerDirection = (MLEyes.FixationPoint - Camera.main.transform.position).normalized;
 
+        
         // Bit shift the index of the layer (hitLayer) to get a bit mask
         int layerMask = 1 << hitLayer;
 

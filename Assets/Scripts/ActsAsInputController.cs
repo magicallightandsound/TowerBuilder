@@ -43,7 +43,6 @@ using Prestige;
  * which represents the Cursor (end of the picker "ray").
  * */
 
-[RequireComponent(typeof(ActsAsCursor))]
 public class ActsAsInputController : MonoBehaviour
 {
     [SerializeField]
