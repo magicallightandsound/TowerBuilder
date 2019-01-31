@@ -224,6 +224,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5b25e2eb7abeca45ae2b97f6f710037, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planePrefab: {fileID: 1337044873873324, guid: eafa08a520d99714a8fdbbfa42f4997c,
+    type: 2}
+  timeSinceLastRequest: 0
+  timeout: 5
+  maxPlaneResults: 100
+  minPlaneArea: 0.25
+  minHoleLength: 0
 --- !u!4 &2032175056
 Transform:
   m_ObjectHideFlags: 0
@@ -231,7 +238,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2032175054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33517408, y: -0.018474579, z: 0.020607948}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

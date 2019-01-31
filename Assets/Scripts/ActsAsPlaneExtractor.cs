@@ -8,7 +8,8 @@ public class ActsAsPlaneExtractor : MonoBehaviour {
     [SerializeField]
     public GameObject planePrefab;
 
-    public ArrayList mlPlanes = null;
+    public List<GameObject> mlPlanes = null;
+
     public float timeSinceLastRequest = 0f;
     public float timeout = 5f;
     public MLWorldPlanesQueryParams queryParms;
@@ -20,24 +21,20 @@ public class ActsAsPlaneExtractor : MonoBehaviour {
     private void Awake()
     {
        
-        this.mlPlanes = new ArrayList();    
+        this.mlPlanes = new List<GameObject>();
+
     }
 
     // Use this for initialization
     void Start () {
-        if (MagicLeapDevice.IsReady())
-        {
+        queryParms.Flags = FilterForInnerHorizontalPlanes();
+        queryParms.MaxResults = maxPlaneResults;
+        queryParms.MinPlaneArea = minPlaneArea;
+        queryParms.MinHoleLength = minHoleLength;
 
-            
-            queryParms.Flags = FilterForInnerHorizontalPlanes();
-            queryParms.MaxResults = maxPlaneResults;
-            queryParms.MinPlaneArea = minPlaneArea; 
-            queryParms.MinHoleLength = minHoleLength;
+        MLWorldPlanes.Start();
 
-            MLWorldPlanes.Start();
-        }
-        
-	}
+    }
 
     private void OnDestroy()
     {
@@ -56,7 +53,7 @@ public class ActsAsPlaneExtractor : MonoBehaviour {
 
             // Update the query with the latest Camera position
             queryParms.BoundsCenter = Camera.main.transform.position;
-            queryParms.BoundsExtents = new Vector3(1, 1, 1);
+            queryParms.BoundsExtents = new Vector3(10, 10, 10);
             queryParms.BoundsRotation = Camera.main.transform.rotation;
 
             MLWorldPlanes.GetPlanes(queryParms, HandleOnReceivedPlanes);
@@ -65,28 +62,37 @@ public class ActsAsPlaneExtractor : MonoBehaviour {
 
     private void HandleOnReceivedPlanes(MLResult result, MLWorldPlane[] planes, MLWorldPlaneBoundaries[] boundaries)
     {
-        for (int i = mlPlanes.Count - 1; i >= 0; --i)
+        // Only add planes if the plane count has changed
+        if (planes.Length != mlPlanes.Count)
         {
-            Destroy(mlPlanes[i] as GameObject);
-            mlPlanes.Remove(mlPlanes[i]);
+            for (int i = mlPlanes.Count - 1; i >= 0; --i)
+            {
+                Destroy(mlPlanes[i]);
+                mlPlanes.Remove(mlPlanes[i]);
+            }
+
+            GameObject newPlane;
+            for (int i = 0; i < planes.Length; ++i)
+            {
+
+                newPlane = Instantiate(planePrefab);
+                newPlane.transform.position = planes[i].Center;
+                // newPlane.transform.rotation = planes[i].Rotation;
+                // newPlane.transform.localScale = new Vector3(planes[i].Width, planes[i].Height, 1f); // Set plane scale
+
+                mlPlanes.Add(newPlane);
+
+            }
+
         }
 
-        GameObject newPlane;
-        for (int i = 0; i < planes.Length; ++i)
-        {
-            newPlane = Instantiate(planePrefab);
-            newPlane.transform.position = planes[i].Center;
-            newPlane.transform.rotation = planes[i].Rotation;
-            newPlane.transform.localScale = new Vector3(planes[i].Width, planes[i].Height, 1f); // Set plane scale
-            mlPlanes.Add(newPlane);
-        }
+
 
     }
 
     public MLWorldPlanesQueryFlags FilterForInnerHorizontalPlanes()
     {
-        return (MLWorldPlanesQueryFlags.Horizontal |
-        MLWorldPlanesQueryFlags.Inner);
+        return (MLWorldPlanesQueryFlags.Horizontal);
     }
     public bool IsMagicLeapEnabled()
     {
