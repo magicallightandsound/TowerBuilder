@@ -27,12 +27,17 @@ public class ActsAsPlaneExtractor : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        queryParms.Flags = FilterForInnerHorizontalPlanes();
-        queryParms.MaxResults = maxPlaneResults;
-        queryParms.MinPlaneArea = minPlaneArea;
-        queryParms.MinHoleLength = minHoleLength;
 
-        MLWorldPlanes.Start();
+        if (MagicLeapDevice.IsReady())
+        {
+            queryParms.Flags = FilterForInnerHorizontalPlanes();
+            queryParms.MaxResults = maxPlaneResults;
+            queryParms.MinPlaneArea = minPlaneArea;
+            queryParms.MinHoleLength = minHoleLength;
+
+            MLWorldPlanes.Start();
+        }
+
 
     }
 
@@ -77,9 +82,7 @@ public class ActsAsPlaneExtractor : MonoBehaviour {
 
                 newPlane = Instantiate(planePrefab);
                 newPlane.transform.position = planes[i].Center;
-                // newPlane.transform.rotation = planes[i].Rotation;
-                // newPlane.transform.localScale = new Vector3(planes[i].Width, planes[i].Height, 1f); // Set plane scale
-
+ 
                 mlPlanes.Add(newPlane);
 
             }
