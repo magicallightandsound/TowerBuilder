@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActsAsBlockStack.cs" />
+    <Compile Include="Assets\Scripts\ActsAsColliderPlatform.cs" />
     <Compile Include="Assets\Scripts\ActsAsCursor.cs" />
     <Compile Include="Assets\Scripts\ActsAsEyeTarget.cs" />
     <Compile Include="Assets\Scripts\ActsAsEyeTracker.cs" />
