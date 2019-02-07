@@ -16,9 +16,6 @@ public class ActsAsReferee : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-
-
-
     }
 
     private void OnDestroy()

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class ActsAsColliderPlatform : MonoBehaviour {
 
+    [SerializeField]
+    public int gameOverFallenBlockCount = 4;
+
+    
     public delegate void TowerHasFallen(Collider collider);
     public static event TowerHasFallen OnTowerHasFallen;
 
@@ -25,13 +29,13 @@ public class ActsAsColliderPlatform : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter(Collider collider)
+    public void OnTriggerEnter(Collider collider)
     {
         Debug.Log("OnTriggerEnter");
 
         fallenBlockCount += 1;
 
-        if (fallenBlockCount == 3)
+        if (fallenBlockCount == gameOverFallenBlockCount)
         {
             fallenBlockCount = 0;
             OnTowerHasFallen(collider);

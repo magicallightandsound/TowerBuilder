@@ -7,7 +7,7 @@ using UnityEngine.XR.MagicLeap;
 public class ActsAsEyeTracker : MonoBehaviour {
 
     [SerializeField]
-    public int hitLayer;
+    public int hitLayer = 15;
 
     [SerializeField]
     public float dampenTimeout = 0.33F;  //Slow down the updates, so the game object does not jiggle

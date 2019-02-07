@@ -63,15 +63,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActsAsBlockStack.cs" />
     <Compile Include="Assets\Scripts\ActsAsColliderPlatform.cs" />
-    <Compile Include="Assets\Scripts\ActsAsCursor.cs" />
     <Compile Include="Assets\Scripts\ActsAsEyeTarget.cs" />
     <Compile Include="Assets\Scripts\ActsAsEyeTracker.cs" />
-    <Compile Include="Assets\Scripts\ActsAsInputController.cs" />
-    <Compile Include="Assets\Scripts\ActsAsPlaceable.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlaneExtractor.cs" />
     <Compile Include="Assets\Scripts\ActsAsPlatform.cs" />
     <Compile Include="Assets\Scripts\ActsAsReferee.cs" />
     <Compile Include="Assets\Scripts\ActsAsRotatingMarker.cs" />
+    <Compile Include="Assets\Scripts\Object Picking and Placement\ActsAsCursor.cs" />
+    <Compile Include="Assets\Scripts\Object Picking and Placement\ActsAsInputController.cs" />
+    <Compile Include="Assets\Scripts\Object Picking and Placement\ActsAsPlaceable.cs" />
     <Compile Include="Assets\Scripts\Prestige.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.1.9f2-MLTP10/Editor/Data/PlaybackEngines/lumin/Tools/UnityEngine.AIModule.dll</HintPath>
