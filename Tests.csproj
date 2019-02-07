@@ -62,9 +62,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Tests\ActsAsBlockStackTestScript.cs" />
+    <Compile Include="Assets\Tests\ActsAsButtonTestScript.cs" />
     <Compile Include="Assets\Tests\ActsAsColliderPlatformTestScript.cs" />
+    <Compile Include="Assets\Tests\ActsAsDashboardTestScript.cs" />
     <Compile Include="Assets\Tests\ActsAsEyeTargetTestScript.cs" />
     <Compile Include="Assets\Tests\ActsAsEyeTrackerTestScript.cs" />
+    <Compile Include="Assets\Tests\ActsAsGameMenuTestScript.cs" />
     <Compile Include="Assets\Tests\ActsAsPlaneExtractorTestScript.cs" />
     <Compile Include="Assets\Tests\ActsAsPlatformTestScript.cs" />
     <Compile Include="Assets\Tests\ActsAsRefereeTestScript.cs" />
